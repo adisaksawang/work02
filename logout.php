@@ -1,0 +1,1 @@
+<?php require 'inc/functions.php'; session_destroy(); header('Location: /67319010092/'); exit; ?>
