@@ -14,7 +14,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         $stmt = $pdo->prepare('INSERT INTO cart (user_id,product_id,quantity) VALUES (?,?,?)');
         $stmt->execute([$_SESSION['user_id'],$product_id,$qty]);
     }
-    header('Location: /nayxixi/cart.php');
+    header('Location: /67319010092/cart.php');
     exit;
 }
 require_login();
